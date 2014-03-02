@@ -501,17 +501,22 @@ a:focus {
 }
 .navbar-default .navbar-nav > li.active > a,
 .navbar-default .navbar-nav > li.active:focus > a,
-.navbar-default .navbar-nav > li.active:hover > a,
-.navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li:focus > a,
 .navbar-default .navbar-nav > li.active > a:focus,
 .navbar-default .navbar-nav > li.active:focus > a:focus,
 .navbar-default .navbar-nav > li.active:hover > a:focus,
-.navbar-default .navbar-nav > li:hover > a:focus,
 .navbar-default .navbar-nav > li:focus > a:focus {
   background-color: #52b6ec;
   color: #fff;
 }
+
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:hover > a:focus {
+  background-color: #ff7a38;
+  color: #fff;
+}
+
 .icon-lg {
   font-size: 48px;
   height: 108px;
