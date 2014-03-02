@@ -56,6 +56,11 @@ a:focus {
   padding: 200px 0;
   color: #fff;
 }
+
+.banner-logo-img {
+  width: 40%;
+}
+
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
